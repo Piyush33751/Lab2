@@ -1,7 +1,8 @@
-number = input("The number of numbers you want to input")
-my_list=[]
-for i in range(int(number)):
-    numb = input("Input your numbers here")
-    my_list.append(numb)
-    print(my_list)
+def get_user_input(numb_numb):
+    x=numb_numb.split()
+    print(x)
 
+number = input("The number of numbers you want to input")
+
+
+get_user_input(number)
