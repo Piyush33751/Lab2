@@ -12,6 +12,7 @@ def classify_bmi(bmi):
         print("Normal Weight")
     else:
         print("Overweight,excerise!!!!")
+    return  
 
 def app():
     output =calculate_bmi(1,7,60)
