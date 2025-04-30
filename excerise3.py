@@ -1,8 +1,11 @@
-def get_user_input(numb_numb):
-    x=numb_numb.split()
+def get_user_input(numb):
+    x=numb.split()
     print(x)
+    return x
+number = input("Input the numbers you want in a string format: ")
 
-number = input("The number of numbers you want to input")
+idnt = get_user_input(number)  # Now idnt will be a list, not None
 
+float_list = [float(element) for element in idnt]
 
-get_user_input(number)
+print("List of floats:", float_list)
