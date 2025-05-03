@@ -3,12 +3,17 @@ def calc_average(x,numbe):
     list_sum=sum(x)
     avg =  int(list_sum)/int(numbe)
     print(avg)
+    return avg
 def min_max(numbi):
         print("Opearation for max and min")
         numbisf=min(numbi)
         print(numbisf)
         numb_max=max(numbi)
         print(numb_max)
+        return numb_max,numbisf
+        
+
+        
 
     
 
