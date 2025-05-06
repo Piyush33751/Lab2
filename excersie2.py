@@ -12,11 +12,6 @@ def min_max(numbi):
         print(numb_max)
         return numb_max,numbisf
         
-
-        
-
-    
-
 numbers=input("How many inputs you want")
 my_list=[]
 for i in range(int(numbers)):
