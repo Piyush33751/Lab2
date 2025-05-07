@@ -21,5 +21,8 @@ def app():
     output =calculate_bmi(1.78,65)
     print(classify_bmi(output))
 
+def figuring_out():
+    print("Hi wassup")
+
 bmi_main = app()
 print(bmi_main)
