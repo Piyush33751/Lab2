@@ -11,8 +11,18 @@ def min_max(numbi):
         numb_max=max(numbi)
         print(numb_max)
         return numb_max,numbisf
-        
-numbers=input("How many inputs you want")
+def median_temp(listi,numbers):
+     print("Median calc")
+     x=1
+     gone=numbers-x
+     median_position=int(gone)/2
+     gor=listi[int(median_position)]
+     print(gor)
+     return gor
+    
+
+
+numbers=int(input("How many inputs you want"))
 my_list=[]
 for i in range(int(numbers)):
     numb=input("Input your temp here")
@@ -22,3 +32,5 @@ for i in range(int(numbers)):
 
 calc_average(my_list,numbers)
 min_max(my_list)
+x=median_temp(my_list,numbers)
+print(x)
